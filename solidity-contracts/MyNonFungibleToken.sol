@@ -6,7 +6,7 @@ import "./ERC721.sol";
 contract MyNonFungibleToken is ERC721 {
   /*** CONSTANTS ***/
 
-    string public constant NAME = "ERC-ME";
+    string public constant NAME = "SalvERC";
     string public constant SYMBOL = "ME";
 
     struct Profile {
@@ -182,7 +182,7 @@ contract MyNonFungibleToken is ERC721 {
         //^^ ** Is that how you return a mapping type ?
         // returns a specific element in the map
         // metaKey is the key (a string) we will be looking up. Ex: website
-        //metaValue is the value that search will return. Ex: https://ghiliweld.github.io
+        //metaValue is the value that search will return. Ex: https://Salvelop07.github.io
         Profile memory profile = profiles[_profileId];
         metaValue = profile.metadata[namespace + ":" + metaKey];
     }

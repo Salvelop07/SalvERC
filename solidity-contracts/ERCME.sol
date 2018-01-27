@@ -147,8 +147,8 @@ contract ERCME is MyNonFungibleToken {
         // namespace is the app from which this metadata comes from. Ex: Social Dapp
         // ** Do default parameters work in Solidity?
         // metaKey is the key (a string) we will be looking up. Ex: website
-        //metaValue is the value that search will return. Ex: https://ghiliweld.github.io
-        // profiles[profileId].metadata["Social Dapp:website"] = "https://ghiliweld.github.io"
+        //metaValue is the value that search will return. Ex: https://Salvelop07.github.io
+        // profiles[profileId].metadata["Social Dapp:website"] = "https://Salvelop07.github.io"
         profiles[profileId].metadata[namespace + ":" + metaKey] = metaValue;
     }
     // editGlobalMetadata and removeGlobalMetadata are subject to removal

@@ -9,7 +9,7 @@ NewProfile: __log__({_owner: indexed(address), _profileId: num256})
 
 
 # Variables of the token.
-name = "ERC-ME"
+name = "SalvERC"
 symbol = "ME"
 totalSupply: num
 balances: num[address]

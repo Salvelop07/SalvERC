@@ -1,15 +1,14 @@
-# ERC-ME Progress
-Ghilia Weldesselasie -- <a href='mailto:ghiliaweld@gmail.com'>ghiliaweld@gmail.com</a>
+# SalvERC Progress
 
 ---
 **11/01/2018**
-- Wrote initial proposal(README.md) for ERC-ME
+- Wrote initial proposal(README.md) for SalvERC
 
 **12/01/2018**
-- Started working on ERC-ME smart contracts.
+- Started working on SalvERC smart contracts.
 - The contracts are separated in three: ERC721.sol, MyNonFungibleToken.sol and ERCME.sol.
 - The first two are copied from [this repository](https://github.com/m0t0k1ch1/ERC721-token-sample), I'll be auditing them later.
-- The last one (ERCME.sol) contains my own custom implementation needed for the ERC-ME platform.
+- The last one (ERCME.sol) contains my own custom implementation needed for the SalvERC platform.
 
 **13/01/2018**
 - Completed the three contracts to the best of my ability.
@@ -32,7 +31,7 @@ Ghilia Weldesselasie -- <a href='mailto:ghiliaweld@gmail.com'>ghiliaweld@gmail.c
 - All done for today. I think I'm finally close to future-proofing this contract.
 
 **17/01/2018**
-- I created a wiki for the project. Check it out [here](https://github.com/ghiliweld/ERC-ME/wiki).
+- I created a wiki for the project. Check it out [here](https://github.com/Salvelop07/SalvERC/wiki).
 
 **18/01/2018**
 - I recently decided to learn [Viper](https://vyper.readthedocs.io/en/latest/index.html) so to practice I'll be rewriting my contracts in Viper.
